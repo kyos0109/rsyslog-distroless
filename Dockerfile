@@ -23,7 +23,7 @@ RUN mkdir -p /opt/etc && mkdir -p /opt/var/run && \
 
 COPY rsyslog.conf /opt/etc/rsyslog.conf
 
-FROM gcr.io/distroless/base:debug
+FROM gcr.io/distroless/base
 
 COPY --from=base /opt /
 
