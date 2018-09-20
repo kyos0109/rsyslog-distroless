@@ -1,5 +1,6 @@
 # rsyslog-distroless
 rsyslog 8.24.0 base distroless
+
 configure path /etc/rsyslog.conf
 
 ```
